@@ -14,7 +14,7 @@ echo ""
 
 if [ $FIRST_TIME -eq 1 ]; then
 	mkdir -p conf
-	cp ../layers/meta-poky-extras/buildconf/*.conf conf/
+	cp ../layers/meta-rapyuta/buildconf/*.conf conf/
 
 	echo ""
 	$ECHO -e "\033[1mA sample conf/local.conf file has been created"
